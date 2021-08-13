@@ -1,1 +1,1 @@
-gzip -dc GCF_000001405.39_GRCh38.p13_genomic.gff.gz | awk {'if($4<19959498 && $4>19927295)print $0'} > COMT_VARIANTS.gff
+gzip -dc GCF_000001405.39_GRCh38.p13_genomic.gff.gz | awk {'if($4<19959498 && $4>19927295)print $0'} > COMT_VARIANTS_1000genome_project.gff
